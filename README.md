@@ -20,7 +20,7 @@ above. The GCP resources created are
 - a Pub/Sub Topic to collect logs via a [log sink](https://cloud.google.com/logging/docs/routing/overview#sinks)
 - a Pub/Sub Subscription to push logs to the Envoy proxy
 
-### How does is work?
+### How does this work?
 
 This is really nothing special, just a reverse HTTP proxy to get around a GCP limitation. The flow is:
 
